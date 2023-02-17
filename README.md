@@ -6,6 +6,16 @@ Keywords: Obsessive-compulsive disorder, magnetic resonance imaging, major depre
 ## Problem Statement
 Determining the root cause of obsessive-compulsive disorder is highly difficult. Physicians are often unable to differentiate obsessive-compulsive disorder from major depressive disorder (MDD) and schizophrenia (SZD). This lack of differentiation occurs because OCD is often comorbid with SZD and MDD.
 
+# Project Documents
+
+<a href="Docs/Eswar, Tarun - 2022-2023 Project Proposal.pdf" class="image fit"><img src="images/marr_pic.jpg" alt="">Project Proposal</a>
+
+<a href="Docs/Eswar, Tarun - 2022-2023 Project Notes.pdf" class="image fit"><img src="images/marr_pic.jpg" alt="">Background Research</a>
+
+<a href="Docs/Eswar, Tarun - 2022-2023 Project Documents.pdf" class="image fit"><img src="images/marr_pic.jpg" alt="">Logbook</a>
+
+<a href="Docs/Eswar Thesis 2023v3.pdf" class="image fit"><img src="images/marr_pic.jpg" alt="">Thesis</a>
+
 ## Engineering Objective
 The overall aim of this project was to design models for each disorder, develop activation heatmaps, and extract regions of interest. Afterwards, gene expression analysis an additional aim was to conduct gene expression analysis to determine the involvement of mGluR5, encoded by GRM, in OCD.
 
