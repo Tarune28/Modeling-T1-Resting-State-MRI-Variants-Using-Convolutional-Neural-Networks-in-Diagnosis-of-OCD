@@ -1,0 +1,69 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>Modeling-T1-Resting-State-MRI-Variants-Using-Convolutional-Neural-Networks-in-Diagnosis-of-OCD</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Modeling T1 Resting-State MRI Variants Application</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="/mdd">MDD</a>
+        <a class="nav-item nav-link" href="/szd">SZD</a>
+        <a class="nav-item nav-link" href="/ocd">OCD</a>
+      </div>
+    </div>
+  </nav>
+    <div style="display: flex; background-size: cover; height: 10vw; background-color: #2D97B2;">
+      <img class="img mx-auto" src="https://firebasestorage.googleapis.com/v0/b/mass-academy-sign-in-system.appspot.com/o/Y1cover.png?alt=media&token=c8a5e777-315e-48d8-9f11-fc4b31f94f47">
+    </div>
+    <div class="mx-5">
+      <br><br>
+      <h4><span class="header mt-3 banner text-center">Abstract</span></h4>
+      <p>
+        Obsessive-compulsive disorder (OCD) presents itself as a highly debilitating disorder. The disorder has common associations to the prefrontal cortex and the glutamate receptor known Metabotropic Glutamate Receptor 5 (mGluR5). This receptor has been observed to demonstrate higher levels of signaling from positron emission tomography scans measured by its distribution volume ratios. Though, studies are unable to verify the involvement of mGluR5. Computational modeling methods were used as a means of validation for previous hypotheses involving mGluR5. The inadequacies in relation to the causal factor of OCD were answered by utilizing T1 resting-state magnetic resonance imaging (TRS-MRI) scans of patients suffering from schizophrenia, major depressive disorder, and obsessive-compulsive disorder. Because comorbid cases often occur within these disorders, cross comparative abilities become necessary to find distinctive characteristics. After unique structures of tissues found in OCD TRS-MRI scans were identified, a gene expression analysis was conducted based on scan data output. Two-dimensional convolutional neural networks alongside ResNet50 and MobileNet models were constructed and evaluated for efficiency. Activation heatmaps of TRS-MRI scans were outputted, allowing for transcriptomics analysis. Though, a lack of ability of prediction of OCD cases prevented gene expression analysis. Across all models, there was an 88.75% validation accuracy for MDD, and 82.08% validation accuracy for SZD under the framework of ResNet50 as well as novel computation. OCD yielded an accuracy rate of ~54.4%. These results provided further evidence for the p factor theorem regarding mental disorders. Future work involves the application of transfer learning to bolster accuracy rates.
+      </p>
+    </div>
+
+    <div class="mx-5">
+      <br>
+      <h4><span class="header mt-3 banner text-center">Problem Statement</span></h4>
+      <p>
+        Determining the root cause of obsessive-compulsive disorder is highly difficult. Physicians are often unable to differentiate obsessive-compulsive disorder from major depressive disorder (MDD) and schizophrenia (SZD). This lack of differentiation occurs because OCD is often comorbid with SZD and MDD.
+      </p>
+    </div>
+
+    <div class="mx-5">
+      <br>
+      <h4><span class="header mt-3 banner text-center">Engineering Objective</span></h4>
+      <p>
+        The overall aim of this project was to design models for each disorder, develop activation heatmaps, and extract regions of interest. Afterwards, gene expression analysis an additional aim was to conduct gene expression analysis to determine the involvement of mGluR5, encoded by GRM, in OCD.
+      </p>
+    </div>
+
+    <div class="mx-5">
+      <br>
+      <h4><span class="header mt-3 banner text-center">Purpose of this portal</span></h4>
+      <p>
+        In determining the involvement of GRM, models were constructed for each individual model. In order to understand involvement, the heatmaps of each model can be analyzed with transcriptomics analysis. This piece of work remains as future work. However, other studies in the field can utilize and test the models from this study by utilizing this web portal. More features will be implemented later on to provide deeper analysis for scans.
+      </p>
+    </div>
+
+    <br>
+    <footer class="bg-light text-center text-lg-start">
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        Created to supplement the STEM I independent project.
+        <a class="text-dark" href="https://github.com/Tarune28">Tarun Eswar, 2023.</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+
+</body>
+</html>

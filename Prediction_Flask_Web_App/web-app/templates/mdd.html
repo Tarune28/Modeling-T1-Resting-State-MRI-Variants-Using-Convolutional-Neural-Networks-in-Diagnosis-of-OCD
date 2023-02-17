@@ -1,0 +1,59 @@
+
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">  
+  <title>Modeling-T1-Resting-State-MRI-Variants-Using-Convolutional-Neural-Networks-in-Diagnosis-of-OCD</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Modeling T1 Resting-State MRI Variants Application</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link active" href="/mdd">MDD</a>
+        <a class="nav-item nav-link" href="/szd">SZD</a>
+        <a class="nav-item nav-link" href="/ocd">OCD</a>
+      </div>
+    </div>
+  </nav>
+    <div style="display: flex; background-size: cover; height: 10vw; background-color: #7ED957;">
+      <img class="img mx-auto" src="https://firebasestorage.googleapis.com/v0/b/mass-academy-sign-in-system.appspot.com/o/Your%20paragraph%20text%20(1).png?alt=media&token=f53c1999-492c-47f4-9320-2a05adb5e237">
+    </div>
+    <div class="mx-5">
+        <br><br>
+        <h4><span class="header mt-3 banner text-center">Overview & Usage</span></h4>
+        <p>
+            The MDD model finished with an accuracy of 88.75% with a P-value of 0.043, significant at an alpha level of 0.05. This significance was determined by comparing the model performance to past deep learning networks. Extraction of the final weighted layer allowed for the generation of heatmaps by utilizing the jet function. These mappings demonstrated support for an altered Corpus Callosum based on the weights determined by ImageNet. Alteration of the Corpus Callosum supports recent MDD findings (van Velzen et al., 2020). The file input below allows for the  model to be trialed. Certain input sizes may be rejected by the model. (1 voxel @ 244 x 244 is the optimal input)
+        </p>
+      </div>
+    <div class="mx-5">
+        <form action = "/predict" method = "post" enctype="multipart/form-data">
+            <input type="file" name="file" />
+            <input type = "submit" value="Upload">
+        </form>
+      </div>
+      <div class="mx-5">
+        <h4>Result: {{result}}</h4>
+      </div>
+    
+    <footer class="bg-light text-center text-lg-start" style="position: absolute; bottom: 0px; width: 100%">
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        Created to supplement the STEM I independent project.
+        <a class="text-dark" href="https://github.com/Tarune28">Tarun Eswar, 2023.</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+
+</body>
+</html>
+
+
+
+
