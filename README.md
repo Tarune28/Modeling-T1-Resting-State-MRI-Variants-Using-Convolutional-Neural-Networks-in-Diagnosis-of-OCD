@@ -6,6 +6,9 @@ Keywords: Obsessive-compulsive disorder, magnetic resonance imaging, major depre
 ## Problem Statement
 Determining the root cause of obsessive-compulsive disorder is highly difficult. Physicians are often unable to differentiate obsessive-compulsive disorder from major depressive disorder (MDD) and schizophrenia (SZD). This lack of differentiation occurs because OCD is often comorbid with SZD and MDD.
 
+## Engineering Objective
+The overall aim of this project was to design models for each disorder, develop activation heatmaps, and extract regions of interest. Afterwards, gene expression analysis an additional aim was to conduct gene expression analysis to determine the involvement of mGluR5, encoded by GRM, in OCD.
+
 # Project Documents
 
 <a href="Docs/Eswar, Tarun - 2022-2023 Project Proposal.pdf" class="image fit"><img src="images/marr_pic.jpg" alt="">Project Proposal</a>
@@ -15,9 +18,6 @@ Determining the root cause of obsessive-compulsive disorder is highly difficult.
 <a href="Docs/Eswar, Tarun - 2022-2023 Project Documents.pdf" class="image fit"><img src="images/marr_pic.jpg" alt="">Logbook</a>
 
 <a href="Docs/Eswar Thesis 2023v3.pdf" class="image fit"><img src="images/marr_pic.jpg" alt="">Thesis</a>
-
-## Engineering Objective
-The overall aim of this project was to design models for each disorder, develop activation heatmaps, and extract regions of interest. Afterwards, gene expression analysis an additional aim was to conduct gene expression analysis to determine the involvement of mGluR5, encoded by GRM, in OCD.
 
 ## Background
 Over recent decades, obsessive compulsive disorder (OCD) has been ranked as one of the ten most disabling disorders (Murray and Lopez, 1996). A patient suffering from OCD will often experience a variety of symptoms, falling into two main categories: obsessions and compulsions. Obsessions refer to being overly focused on a specific issue, involving overthinking in the form of impulsions. Furthermore, compulsions reflect specific actions in order to counteract the obsessive symptoms. These can include checking and mental compulsions, though the list of specific compulsions varies by case (International OCD Foundation, 2010). The symptoms themselves are not rather concerning; however, concern arises in analysis of the impact of symptoms as a function of time. The fear that associated with failing to fulfill an impulse is the major component in the factors that push a diagnosed patient to follow their obsession. As a result, a sufferer of OCD typically spends an hour each day fixated on these debilitating symptoms (NIMH, 2019). Though, an hour worth of compulsion generalizes overall observations of an OCD cases. Those facing extreme cases of OCD can often face increased disruptions to daily life including the inability to participate at places of work or in school (Wood, 2018). Though OCD has been established as a severely debilitating condition, treatments and knowledge of the disorder is still developing. Current treatments involve utilizing Selective Serotonin Reuptake Inhibitors (SSRIs) as prior research hypothesized serotonin to be a target for effective treatment to the disorder. However, when tested, 40 to 60 percent of patients noticed none to partial improvements to their symptoms (Kellner, 2010). Identifying a singular root cause is difficult due to the comorbidity that often occurs with OCD and similar disorders. Therefore, there exists a need to differentiate and determine a causal factor.
