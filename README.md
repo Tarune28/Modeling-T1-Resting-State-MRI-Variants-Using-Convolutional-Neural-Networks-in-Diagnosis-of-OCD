@@ -73,6 +73,6 @@ In order to analyze the two working models, a two proportion z test was utilized
 > ```python app.py```
 > <br>
 > #### Continous Save <br>
-> ```flask --app main.py --debug run```
-> Utilized code from https://github.com/nitinkaushik01/Deep_and_Machine_Learning_Projects/tree/master/Build_Clothing_Prediction_Flask_Web_App
+> ```flask --app main.py --debug run``` <br>
+> Utilized code from https://github.com/nitinkaushik01/Deep_and_Machine_Learning_Projects/tree/master/Build_Clothing_Prediction_Flask_Web_App in creation of web application.
 
