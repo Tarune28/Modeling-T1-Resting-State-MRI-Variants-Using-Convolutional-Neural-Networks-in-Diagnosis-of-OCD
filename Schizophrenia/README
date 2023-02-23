@@ -1,3 +1,5 @@
+# Readme from original dataset
+
 1.  grab original data from xnat and setup using setup_all_subs.py
 
 2.  set up new directories using reformat_data.py
