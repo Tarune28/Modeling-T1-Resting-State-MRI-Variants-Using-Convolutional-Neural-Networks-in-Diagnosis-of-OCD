@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+gunicorn = "==20.1.0"
+tensorflow-cpu = "*"
+numpy = "*"
+simpleitk = "*"
+scipy = "*"
+flask = "*"
+matplotlib = "*"
+s3fs = "*"
+h5py = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7.0"
+
+
