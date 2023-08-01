@@ -1,0 +1,62 @@
+
+.img {
+ 
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  width: 550px!important;
+  
+}
+
+
+
+
+.img1 {
+ 
+  display: block;
+
+margin-bottom: 0px;
+width: 400px!important;
+display: none!important;
+  
+}
+
+.show {
+  display: block!important;
+}
+
+.white {
+  color: white;
+  font-size: 2rem;
+}
+
+/* If the screen size is 1200px wide or more, set the font-size to 80px */
+@media (min-width: 1200px) {
+  .responsive-font-example {
+    font-size: 20px;
+  }
+}
+/* If the screen size is smaller than 1200px, set the font-size to 80px */
+@media (max-width: 1199.98px) {
+  .responsive-font-example {
+    font-size: 30px;
+  }
+}
+
+* {
+  font-family: 'open sans', sans-serif;
+  text-overflow: wrap!important;
+}
+
+body { 
+  text-overflow: wrap!important;
+}
+
+.list {
+  background-color: white!important;
+  border: none!important;
+  font-size: 15px!important;
+  font-weight: 500;
+  color: #1e678f!important;
+}
