@@ -1,3 +1,8 @@
 *.h5
 Depression/Data
+"Obsessive-compulsive Disorder"/Data
 *.icloud
+Schizophrenia/ResNet50/logs/
+Schizophrenia/Data
+Obsessive-compulsive Disorder/Data/
+*.DS_Store
