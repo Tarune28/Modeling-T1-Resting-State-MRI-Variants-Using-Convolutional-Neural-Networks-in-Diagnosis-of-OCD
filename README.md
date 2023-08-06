@@ -21,6 +21,8 @@ The overall aim of this project was to design models for each disorder, develop 
 
 <a href="Docs/Eswar__Tarun___Modeling_T1_Resting_State_in_Diagnosis_of_OCD-2023.pdf" class="image fit"><img src="images/marr_pic.jpg" alt="">Thesis</a>
 
+<a href="https://aps.arxiv.org/abs/2306.12435">Arxiv preprint</a>
+
 <a href="https://gitlab03.wpi.edu/teswar/trs-mri-models/-/tree/main/">Open Access to All Models</a> 
 
 ### Background
