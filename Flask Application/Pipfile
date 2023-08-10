@@ -11,12 +11,11 @@ simpleitk = "*"
 scipy = "*"
 flask = "*"
 matplotlib = "*"
-s3fs = "*"
-h5py = "*"
+numba = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.7.0"
+python_version = "3.10.12"
 
 
